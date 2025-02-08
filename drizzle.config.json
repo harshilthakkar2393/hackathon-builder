@@ -1,0 +1,9 @@
+{
+    "schema": "./src/db/schema.ts",
+    "connection": {
+        "connectionString": "${DATABASE_URL}",
+        "ssl": false
+    },
+    "driver": "postgres",
+    "dialect": "postgresql"
+}
